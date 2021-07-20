@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: darkgrey;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1024px;
+}
+
+h1 {
+    color:aqua;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: seagreen;
+    background-image: url(images/Sapien\ 1k\ sub.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 25px
+}
+
+.box2 {
+    background: tan;
+    border-radius: 25px
+}
+
+.tweet_box {
+    background-image: linear-gradient(to right, rgb(66, 170, 202), white);
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 25px;
+    background-image: url(images/fomo.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav {
+    background-color: rgb(165, 61, 61);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 25px
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main {
+    background-color: rgb(12, 6, 1);
+    height: 390px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-left: 240px;
+    padding-right: 240px;
+    border-radius: 25px;
+
+}
+
+footer {
+    background-color: coral;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+img {
+    image-resolution: 100%;
+    height: auto;
+    width: 10%;
+}
+
+div {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.size_lower {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 10%;
+    height: 30%;
+}
